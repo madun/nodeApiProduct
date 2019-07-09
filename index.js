@@ -12,6 +12,7 @@ const sequelize = require('./configs/sequelize');
 const Product = require('./models/product');
 const Sales = require('./models/sales');
 const SalesProduct = require('./models/sales_product');
+const User = require('./models/user');
 
 // association betweens Models
 Sales.hasMany(SalesProduct);
